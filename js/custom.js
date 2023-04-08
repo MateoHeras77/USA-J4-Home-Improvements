@@ -62,7 +62,3 @@ $(document).ready(function () {
         arrow: false
     });
 });
-
-$('button').click(function() {
-    $("article").toggleClass("paused")
-  });
