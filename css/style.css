@@ -209,7 +209,7 @@ p {
 .banner-area {
     align-items: center;
     /* background-attachment: fixed; */
-    background-image: url("../images/bg1.jpg");
+    background-image: url("../images/bg1.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 0 none !important;
