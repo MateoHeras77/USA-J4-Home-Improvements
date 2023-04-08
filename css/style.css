@@ -305,7 +305,7 @@ input.next[type="submit"], input.next[type="reset"], input.next[type="button"], 
 .grid-style figure::after {
     /* background: rgba(0, 0, 0, 0.45) none repeat scroll 0 0; */
     content: "";
-    display: block;
+    /* display: block; */
     height: 100%;
     left: 0;
     position: absolute;
