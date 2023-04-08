@@ -1,0 +1,122 @@
+/*
+Template Name: 
+File Name: responsive.css
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/
+*/
+
+@media (min-width: 768px) {
+    .grid-style figure:hover header {
+        transform: scale(1.1,1.1);
+    }
+}
+@media (min-width: 992px) {
+    .grid-style figure:nth-child(2n-2) {
+        width: 50%; 
+    }
+    .grid-style figure:nth-child(odd), .grid-style figure:nth-child(6n-2) {
+        width: 25%;
+    }
+    .grid-style figure { 
+        width: 25%;
+    }
+    .grid-style.grid-style-1 figure {
+        width: 40%;
+    }
+    .grid-style.grid-style-1 figure:nth-child(4n-1), .grid-style.grid-style-1 figure:nth-child(4n-2) {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .grid-style figure { 
+        padding: 1.5rem;
+    }
+    .grid-style-1 .grid-layout .text-content {
+        padding: 2rem 2.5rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .grid-style figure { 
+        width: 40%;
+        padding: 2rem;
+        height: 30vh;
+        max-height: 30em;
+        min-height: 20em;
+    }
+    .grid-style figure:nth-child(4n-1), .grid-style figure:nth-child(4n-2) {
+        width: 60%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .grid-style figure {
+        padding: 1.5rem;
+    }
+    .grid-style figure, .grid-style figure:nth-child(4n-1), .grid-style figure:nth-child(4n-2) { 
+        width: 50%;
+    }
+    #header .logo {
+        padding-left: 0.95rem;
+    }
+    .logo span {
+        display: none;
+    }
+    #header {
+        height: auto;
+    }
+    .navbar-toggler {
+        padding: 0.5rem 0.95rem;
+        border-radius: 0;
+    }
+    #header nav {
+        padding: 0;
+    }
+    .navbar .navbar-collapse {
+        background-color: #202020;
+        padding: 0.5rem 0.95rem;
+    }
+    .navbar-nav .nav-link {
+        line-height: 1.85;
+    }
+    .banner-area {
+        margin-bottom: 0;
+        top: 0;
+    }
+    .banner-area {
+        height: auto;
+        max-height: 40em;
+        min-height: 0;
+    }
+    #banner h1 {
+        font-size: 2.85em;
+
+    }
+}
+
+@media (max-width: 575.98px) {
+    #banner h1 {
+        font-size: 2.35em;
+        line-height: 1.12;
+    }
+    .grid-layout {
+        flex-direction: column;
+    }
+    .grid-layout figure {
+        width: 100%;
+    }
+    .grid-style-1 .grid-layout:nth-child(even) .text-content{
+        order:2;
+    }
+    .grid-style-1 .grid-layout:nth-child(even) figure{
+        order:1;
+    }
+}
+@media (max-width: 479px) {
+    .grid-style figure, .grid-style figure:nth-child(4n-1), .grid-style figure:nth-child(4n-2) { 
+        width: 100%;
+    }
+
+}
