@@ -303,7 +303,7 @@ input.next[type="submit"], input.next[type="reset"], input.next[type="button"], 
 }
 
 .grid-style figure::after {
-    background: rgba(0, 0, 0, 0.45) none repeat scroll 0 0;
+    /* background: rgba(0, 0, 0, 0.45) none repeat scroll 0 0; */
     content: "";
     display: block;
     height: 100%;
@@ -418,8 +418,8 @@ input.next[type="submit"], input.next[type="reset"], input.next[type="button"], 
     margin-bottom: 3rem;
 }
 .contact-form img {
-    max-width: 800px;
-    max-height: 500px;
+    max-width: 700px;
+    max-height: 400px;
     width: auto;
     height: auto;
   }
